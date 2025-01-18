@@ -1,0 +1,40 @@
+//app/components/atoms/Header/Header.module.scss
+// app/components/atoms/Header/Header.module.scss
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; // Align items to the left and right
+  align-items: center; // Vertically center items
+
+  .homeLink {
+    text-decoration: none; // Remove underline from the link
+    color: white; // Ensure the text color is white
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      &:hover {
+        opacity: 0.8; // Add a hover effect to the title
+      }
+    }
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.1); // Light hover effect
+    }
+
+    &:active {
+      background-color: rgba(255, 255, 255, 0.2); // Slightly darker when clicked
+    }
+  }
+}

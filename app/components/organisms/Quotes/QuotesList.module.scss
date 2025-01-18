@@ -1,0 +1,22 @@
+// src/components/organisms/QuotesList.module.scss
+// src/app/components/organisms/Quotes/QuotesList.module.scss
+.quotesList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  
+    .loading {
+      text-align: center;
+      font-size: 1.25rem;
+      color: #666;
+    }
+  
+    .error {
+      text-align: center;
+      font-size: 1.25rem;
+      color: #ff4d4f;
+    }
+  }

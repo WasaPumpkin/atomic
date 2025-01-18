@@ -1,0 +1,7 @@
+//app/components/molecules/BookForm/BookForm.module.scss
+.bookForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 900px
+}
